@@ -1,6 +1,6 @@
 [submodule "app/jni/src"]
 	path = app/jni/src
-    url = https://github.com/robertkirkman/sm64ex-coop.git
+    url = https://github.com/robertkirkman/sm64ex-omm.git
 [submodule "app/jni/SDL"]
 	path = app/jni/SDL
 	url = https://github.com/robertkirkman/SDL.git
