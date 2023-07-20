@@ -33,9 +33,9 @@
 
     <!-- Audio recording support -->
     <!-- if you want to capture audio, uncomment this. -->
-    <!-- <uses-feature
+    <uses-feature
         android:name="android.hardware.microphone"
-        android:required="false" /> -->
+        android:required="false" />
 
     <!-- Allow downloading to the external storage -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -67,14 +67,13 @@
         android:allowBackup="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true">
 
         <!-- Example of setting SDL hints from AndroidManifest.xml:
         <meta-data android:name="SDL_ENV.SDL_ACCELEROMETER_AS_JOYSTICK" android:value="0"/>
          -->
      
-        <activity android:name="sm64excoopActivity"
+        <activity android:name="sm64exommActivity"
             android:alwaysRetainTaskState="true"
             android:launchMode="singleInstance"
             android:configChanges="layoutDirection|locale|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"

@@ -1869,8 +1869,7 @@ public class SDLActivity extends Activity implements View.OnSystemUiVisibilityCh
                     else
                         p = srcpath + "/";
 
-                    if (assets[i].equals("lang") || assets[i].equals("mods") ||
-                        srcpath.contains("lang") || srcpath.contains("mods"))
+                    if (assets[i].equals("res") || srcpath.contains("res"))
                         copyFileOrDir( p + assets[i], destpath);
                 }
             }
